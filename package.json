@@ -1,0 +1,62 @@
+{
+  "name": "u-wangeditor",
+  "title": "u-wangeditor",
+  "version": "1.0.2",
+  "description": "wangEditor 的扩展使用",
+  "homepage": "https://github.com/ArleneLiu001/u-wangeditor.git",
+  "author": {
+    "name": "arleneliu",
+    "url": "https://github.com/ArleneLiu001/u-wangeditor.git"
+  },
+  "keywords": [
+    "wangEditor",
+    "web 富文本编辑器"
+  ],
+  "main": "release/wangEditor.js",
+  "maintainers": [
+    {
+      "name": "arleneliu",
+      "mail": "arleneliu001@163.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/ArleneLiu001/u-wangeditor.git"
+    }
+  ],
+  "scripts": {
+    "release": "gulp",
+    "win-example": "node ./example/server/index.js",
+    "example": "/bin/rm -rf ./example/upload-files && mkdir ./example/upload-files && npm run win-example"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-latest": "^6.24.0",
+    "cssgrace": "^3.0.0",
+    "formidable": "^1.1.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-less": "^3.3.0",
+    "gulp-postcss": "^6.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sourcemaps": "^2.5.0",
+    "gulp-uglify": "^2.1.2",
+    "koa": "^1.2.4",
+    "koa-bodyparser": "^2.3.0",
+    "koa-onerror": "^3.1.0",
+    "koa-router": "^5.4.0",
+    "koa-static-cache": "^4.0.0",
+    "rollup": "^0.41.6",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-eslint": "^3.0.0",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  },
+  "dependencies": {},
+  "__npminstall_done": "Mon Aug 24 2020 16:31:21 GMT+0800 (GMT+08:00)",
+  "_from": "u-wangeditor@1.0.2",
+  "_resolved": ""
+}
